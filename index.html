@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example Website</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="./main.js">
-
-    </script>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <header>
@@ -19,6 +18,9 @@
     <main>
         <button class="button" onclick="IncrementButton()">Increment</button>
         <h2 id="incrementText">0</h2>
+        <button class="button" onclick="GetNotes()">Get Notes</button>
+        <ul id="add-notes">
+        </ul>
     </main>
 </body>
 </html>
