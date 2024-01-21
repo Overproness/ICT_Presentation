@@ -44,10 +44,3 @@ List the technologies, languages, and frameworks used in your project:
 - **With_BackEnd (Default Branch)**: Run         *npm install && npm start*          in shell to start the server, and open the html file
 - **Mobil_App**: Run                             *npm install expo && expo start*    in shell to start the App.
 
-## Contributing
-
-Explain how others can contribute to your project. Include guidelines for issues, pull requests, and coding standards.
-
-## License
-
-Specify the license under which your project is distributed. Include any licensing details or restrictions.
